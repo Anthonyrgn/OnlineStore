@@ -1,4 +1,4 @@
-package com.jjuixyy.client;
+package com.jjuixyy.server.controller;
 
 import java.io.*;
 import javax.servlet.http.*;
