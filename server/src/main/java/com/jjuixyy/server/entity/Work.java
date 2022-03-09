@@ -3,6 +3,7 @@ package com.jjuixyy.server.entity;
 import java.util.ArrayList;
 
 public class Work {
+    private long id;
     private String title;
     private String genre;
     private int release;
@@ -15,6 +16,14 @@ public class Work {
 
     public Work(String title) {
         this.title = title;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -56,4 +65,6 @@ public class Work {
     public void setMainArtist(Artist mainArtist) {
         this.mainArtist = mainArtist;
     }
+
+
 }
